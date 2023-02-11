@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CoffeeView.swift
 //  SwiftUIExpandableList
 //
 //  Created by Marble Interactive SL on 11/2/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CoffeeView: View {
     var body: some View {
         List {
             ForEach(sampleMenuItems) { menuItem in
@@ -39,8 +39,9 @@ struct ContentView: View {
         }
     }
 }
-struct ContentView_Previews: PreviewProvider {
+
+struct CoffeeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CoffeeView()
     }
 }
