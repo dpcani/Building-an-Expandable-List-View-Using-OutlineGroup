@@ -13,6 +13,8 @@
 		0BAF29D7299773A1003FA64F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BAF29D6299773A1003FA64F /* Preview Assets.xcassets */; };
 		0BAF29DF299773F6003FA64F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF29DE299773F6003FA64F /* MenuItem.swift */; };
 		0BAF29E229977F23003FA64F /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF29E129977F23003FA64F /* CoffeeView.swift */; };
+		0BAF29E429977F69003FA64F /* Faq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF29E329977F69003FA64F /* Faq.swift */; };
+		0BAF29E629978124003FA64F /* FaqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF29E529978124003FA64F /* FaqView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0BAF29D6299773A1003FA64F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BAF29DE299773F6003FA64F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		0BAF29E129977F23003FA64F /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
+		0BAF29E329977F69003FA64F /* Faq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faq.swift; sourceTree = "<group>"; };
+		0BAF29E529978124003FA64F /* FaqView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0BAF29DE299773F6003FA64F /* MenuItem.swift */,
+				0BAF29E329977F69003FA64F /* Faq.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				0BAF29E129977F23003FA64F /* CoffeeView.swift */,
 				0BAF29D1299773A0003FA64F /* ContentView.swift */,
+				0BAF29E529978124003FA64F /* FaqView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			files = (
 				0BAF29DF299773F6003FA64F /* MenuItem.swift in Sources */,
 				0BAF29D2299773A0003FA64F /* ContentView.swift in Sources */,
+				0BAF29E429977F69003FA64F /* Faq.swift in Sources */,
+				0BAF29E629978124003FA64F /* FaqView.swift in Sources */,
 				0BAF29E229977F23003FA64F /* CoffeeView.swift in Sources */,
 				0BAF29D0299773A0003FA64F /* SwiftUIExpandableListApp.swift in Sources */,
 			);
