@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List(sampleMenuItems, children: \.subMenuItems) { item in
+            HStack {
+                Image(item.image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 50, height: 50)
+                
+                Text(item.name)
+                    .font(.system(.title3, design: .rounded))
+                    .bold()
+            }
+            
         }
-        .padding()
+        .listStyle(.plain)
     }
 }
 
