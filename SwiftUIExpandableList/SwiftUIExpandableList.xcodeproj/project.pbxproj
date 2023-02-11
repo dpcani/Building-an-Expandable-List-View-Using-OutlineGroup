@@ -12,6 +12,7 @@
 		0BAF29D4299773A1003FA64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BAF29D3299773A1003FA64F /* Assets.xcassets */; };
 		0BAF29D7299773A1003FA64F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BAF29D6299773A1003FA64F /* Preview Assets.xcassets */; };
 		0BAF29DF299773F6003FA64F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF29DE299773F6003FA64F /* MenuItem.swift */; };
+		0BAF29E229977F23003FA64F /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAF29E129977F23003FA64F /* CoffeeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0BAF29D3299773A1003FA64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BAF29D6299773A1003FA64F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BAF29DE299773F6003FA64F /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		0BAF29E129977F23003FA64F /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,9 @@
 		0BAF29CE299773A0003FA64F /* SwiftUIExpandableList */ = {
 			isa = PBXGroup;
 			children = (
+				0BAF29E029977F15003FA64F /* View */,
 				0BAF29DD299773EC003FA64F /* Model */,
 				0BAF29CF299773A0003FA64F /* SwiftUIExpandableListApp.swift */,
-				0BAF29D1299773A0003FA64F /* ContentView.swift */,
 				0BAF29D3299773A1003FA64F /* Assets.xcassets */,
 				0BAF29D5299773A1003FA64F /* Preview Content */,
 			);
@@ -76,6 +78,15 @@
 				0BAF29DE299773F6003FA64F /* MenuItem.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0BAF29E029977F15003FA64F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BAF29E129977F23003FA64F /* CoffeeView.swift */,
+				0BAF29D1299773A0003FA64F /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				0BAF29DF299773F6003FA64F /* MenuItem.swift in Sources */,
 				0BAF29D2299773A0003FA64F /* ContentView.swift in Sources */,
+				0BAF29E229977F23003FA64F /* CoffeeView.swift in Sources */,
 				0BAF29D0299773A0003FA64F /* SwiftUIExpandableListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
